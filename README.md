@@ -12,20 +12,20 @@ We summerize awesome **Vision Language(VL) Prompt/Finetune/Adapter** methods and
 
 # 2023
 
-1. ****Dual Modality Prompt Tuning for Vision-Language Pre-Trained Model**** [*[CVPR]*](https://arxiv.org/abs/2208.08340) [*[code]*](https://github.com/fanrena/DPT) 
+1.  ****Dual Modality Prompt Tuning for Vision-Language Pre-Trained Model**** [*[CVPR]*](https://arxiv.org/abs/2208.08340) [*[code]*](https://github.com/fanrena/DPT) 
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled.png" /></p>
     
-2. ****Scaling & Shifting Your Features: A New Baseline for Efficient Model Tuning**** [*[NeurlPS]*](https://arxiv.org/abs/2210.08823) [*[code]*](https://github.com/dongzelian/SSF) 
+2.  ****Scaling & Shifting Your Features: A New Baseline for Efficient Model Tuning**** [*[NeurlPS]*](https://arxiv.org/abs/2210.08823) [*[code]*](https://github.com/dongzelian/SSF) 
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%201.png" /></p>
     
-3. ****Debiasing Vision-Language Models via Biased Prompts**** [*[arXiv]*](https://arxiv.org/abs/2302.00070) [*[code]*](https://github.com/chingyaoc/debias_vl)
+3.  ****Debiasing Vision-Language Models via Biased Prompts**** [*[arXiv]*](https://arxiv.org/abs/2302.00070) [*[code]*](https://github.com/chingyaoc/debias_vl)
 
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%202.png" /></p>
 
-4. ****PLOT: Prompt Learning with Optimal Transport for Vision-Language Models**** [*[ICLR]*](https://arxiv.org/abs/2210.01253) [*[code]*](https://github.com/CHENGY12/PLOT)
+4.  ****PLOT: Prompt Learning with Optimal Transport for Vision-Language Models**** [*[ICLR]*](https://arxiv.org/abs/2210.01253) [*[code]*](https://github.com/CHENGY12/PLOT)
+    - PLOT is a CLIP and CoOp based prompt model, which applied the optimal transport(OT) theory and two-stage optimization strategy to learn multiple comprehensive prompts in order to describe diverse characteristics of one category. In the study, authors obtained the visual feature maps from the visual encoder branch of CLIP and used OT to align the features. They also compared PLOT with baseline CoOp on the few-shot recognition and domain generalization tasks. The result came out that PLOT outperformed on most datasets and may benefit adapter-based methods.
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%203.png" /></p>
-    **Description:** PLOT is a CLIP and CoOp based prompt model, which applied the optimal transport(OT) theory and two-stage optimization strategy to learn multiple comprehensive prompts in order to describe diverse characteristics of one category. In the study, authors obtained the visual feature maps from the visual encoder branch of CLIP and used OT to align the features. They also compared PLOT with baseline CoOp on the few-shot recognition and domain generalization tasks. The result came out that PLOT outperformed on most datasets and may benefit adapter-based methods.
     
 5. ****VoLTA: Vision-Language Transformer with Weakly-Supervised Local-Feature Alignment**** [*[arXiv]*](https://arxiv.org/abs/2210.04135)
     
