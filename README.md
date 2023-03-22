@@ -178,6 +178,11 @@ We summerize awesome **Vision Language(VL) Prompt/Finetune/Adapter** methods and
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2038.png" /></p>
     
 24. ****Learning to Prompt for Vision-Language Models**** [*[IJCV]*](https://arxiv.org/abs/2109.01134) [*[code]*](https://github.com/KaiyangZhou/CoOp)
+    - Based on continuous prompt learning and  provided 2 implementations that handle different tasks, Context Optimization(CoOp) models a prompt’s context words with learnable vectors while the entire pre-trained parameters are kept fixed, improving the deployment efficiency compared with proposed vision-language models.
+    - Pretrained Models: CLIP
+    - Tasks
+        - Few-Shot Learning(ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, DTD, EuroSAT, UCF101)
+        - Domain Generalization(ImageNet, ImageNetV2, ImageNet-Sketch, ImageNet-A, ImageNet-R)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2039.png" /></p>
     
