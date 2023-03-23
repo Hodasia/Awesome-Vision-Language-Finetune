@@ -216,6 +216,12 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2046.png" /></p>
     
 32. **Conditional Prompt Learning for Vision-Language Models** [*[CVPR]*](https://arxiv.org/abs/2203.05557) [*[code]*](https://github.com/KaiyangZhou/CoOp)
+    - Conditional Context Optimization(CoCoOP) extends CoOp by further learning a lightweight neural network(Meta-Net) to generate for each image an input-conditional token(vector), allowing the gap between manual and learning-base prompts to be substantially reduced.
+    - Pretrained Model: CoOp
+    - Tasks:
+        - Generalization from Base to New Classes(ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, DTD, EuroSAT, UCF101)
+        - Cross-Dataset Transfer(ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, DTD, EuroSAT, UCF101)
+        - Domain Generalization(ImageNet, ImageNetV2, ImageNet-Sketch, ImageNet-A, ImgaeNet-R)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2047.png" /></p>
     
