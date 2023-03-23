@@ -17,6 +17,24 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled.png" /></p>
     
 2.  ****Scaling & Shifting Your Features: A New Baseline for Efficient Model Tuning**** [*[NeurlPS]*](https://arxiv.org/abs/2210.08823) [*[code]*](https://github.com/dongzelian/SSF) 
+    - SSF is a general proxy for parameter-efficient fine-tuning, where you only need to Scale and Shift your deep Features extracted by a pre-trained model for fine-tuning. It mainly has two merits: i)The scale and shift parameters do not depend on any input and have a unified learnable parameter space for different tasks. ii) It only introduces linear transformations.
+    - Pretrained Models:
+        - ViT-B/16
+        - Swin-B
+        - ConvNeXt-B
+        - AS-MLP-B
+    - Baselines:
+        - 2 basic fine-tuning methods:
+            - Full-Fine-Tuning
+            - Linear-Probing
+        - 2 Parameter-Efficient Fine-Tuning Methods:
+            - Adapter
+            - Bias
+            - VPT
+    - Tasks:
+        - Performance Comparisions on Image Classification (FGVC, VTAB-1k, CIFAR-100, ImageNet-1K, totally 26 image classification tasks)
+        - Impacts of Different Designs on SSF-ADA (CIFAR-100)
+        - Performance Comparisons on Robustness and OOD Datasets (ImageNet-A, ImageNet-R, ImageNet-C, ImageNet-1K)
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%201.png" /></p>
     
 3.  ****Debiasing Vision-Language Models via Biased Prompts**** [*[arXiv]*](https://arxiv.org/abs/2302.00070) [*[code]*](https://github.com/chingyaoc/debias_vl)
