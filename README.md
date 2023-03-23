@@ -1,8 +1,9 @@
 # Awesome Vision Language Prompt/Finetune/Adapter
 
-We summerize awesome **Vision Language(VL) Prompt/Finetune/Adapter** methods and models. The list of papers is in chronological order.
+## Introduction
+With the rise of powerful pre-trained vision-language models like CLIP, the community has started to investigate potential solutions to efficiently adapt these models to downstream datasets and tasks. In order to systematically organize and understand the development of this field, we summarize awesome **Vision Language(VL) Prompt/Finetune/Adapter** methods and models. The list of papers is in chronological order.
 
-# Timeline
+## Timeline
 
 [*2023*](#2023)
 
@@ -10,7 +11,7 @@ We summerize awesome **Vision Language(VL) Prompt/Finetune/Adapter** methods and
 
 [*2021*](#2021)
 
-# 2023
+## 2023
 
 1.  ****Dual Modality Prompt Tuning for Vision-Language Pre-Trained Model**** [*[CVPR]*](https://arxiv.org/abs/2208.08340) [*[code]*](https://github.com/fanrena/DPT) 
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled.png" /></p>
@@ -78,7 +79,7 @@ We summerize awesome **Vision Language(VL) Prompt/Finetune/Adapter** methods and
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2014.png" /></p>
     
 
-# 2022
+## 2022
 
 1. **Learning to Prompt for Continual Learning** [*[CVPR]*](https://arxiv.org/abs/2112.08654) [*[code]*](https://github.com/google-research/l2p)
     
@@ -360,7 +361,7 @@ We summerize awesome **Vision Language(VL) Prompt/Finetune/Adapter** methods and
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2082.png" /></p>
     
 
-# 2021
+## 2021
 
 1. ****AdaViT: Adaptive Vision Transformers for Efficient Image Recognition**** [*[CVPR]*](https://arxiv.org/abs/2111.15668)
     
