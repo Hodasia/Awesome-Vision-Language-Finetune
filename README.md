@@ -57,6 +57,31 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%204.png" /></p>
     
 6. ****CLIP-ViP: Adapting Pre-trained Image-Text Model to Video-Language Representation Alignment**** [*[ICLRr]*](https://arxiv.org/abs/2209.06430) [*[code]*](https://github.com/microsoft/XPretrain/tree/main/CLIP-ViP)
+- CLIP-ViP model is proposed in three aspects:
+    
+    - adopt an image captioning model instead of using video captioning model
+        
+    - equip with Video Proxy mechanism
+        
+    - use Omnisource Cross-modal Learning(OCL)
+- Preliminary:
+    
+    - post-pretraining with different data-scale
+        
+        - pre-trained models: CLIP-ViT-B/32, CLIP4Clip
+            
+        - dataset: WebVid-2.5M, HD-VILA-100M, HD-VILA-10M, MSR-VTT
+            
+    - language domain gap with downstream data
+        
+        - datasets: MSR-VTT, DiDeMo, HD-VILA-100M, webVid-2.5M, MS-COCO, Conceptual Caption 12M
+            
+        - pre-trained model: CLIP
+ - Tasks:
+    
+    - Video-Text Post-Pretrainig(HD-VILA-100M)
+        
+    - Fine-tuning Training(MSR-VTT, DiDeMo, LSMDC, ActivityNet)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%205.png" /></p>
     
