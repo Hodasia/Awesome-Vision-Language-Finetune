@@ -95,6 +95,8 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
 15. ****Fine-tuned CLIP Models are Efficient Video Learners**** [*[CVPR]*](https://arxiv.org/abs/2212.03640) [*[code]*](https://github.com/muzairkhattak/ViFi-CLIP) 
     
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2014.png" /></p>
+16. ****Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning with Multimodal Models**** [*[CVPR]*](https://arxiv.org/abs/2301.06267) [*[code]*](https://github.com/linzhiqiu/cross_modal_adaptation)
+    <p align="center"><img width=50% src="https://github.com/linzhiqiu/cross_modal_adaptation/blob/main/assets/methodology.png" /></p>
     
 
 ## 2022
