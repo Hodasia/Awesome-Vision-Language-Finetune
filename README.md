@@ -121,6 +121,19 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2014.png" /></p>
 16. ****Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning with Multimodal Models**** [*[CVPR]*](https://arxiv.org/abs/2301.06267) [*[code]*](https://github.com/linzhiqiu/cross_modal_adaptation)
+- The cross-modal adaptation approach treats examples from different modalities as additional few-shot examples, encoding different modalities to the same representation space.
+    
+- Pre-trained Models:
+    
+    - CLIP
+        
+    - AudioCLIP
+        
+- Task:
+    
+    - Vision-Language Adaption(Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, DTD, EuroSAT, UCF101)
+        
+    - Vision-Audio Adaption(ImageNet, ESC-50)
     <p align="center"><img width=50% src="https://github.com/linzhiqiu/cross_modal_adaptation/blob/main/assets/methodology.png" /></p>
     
 
