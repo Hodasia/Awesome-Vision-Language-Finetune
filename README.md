@@ -439,7 +439,24 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2085.png" /></p>
     
-4. ****CLIP-Adapter: Better Vision-Language Models with Feature Adapters**** [*[arXiv]*](https://arxiv.org/abs/2110.04544)
+4. ****CLIP-Adapter: Better Vision-Language Models with Feature Adapters**** [*[arXiv]*](https://arxiv.org/abs/2110.04544) [*[code]*](https://github.com/OpenAI/CLIP)
+    - CLIP-Adapter conducts residual-style feature blending to achieve efficient few-shot transfer learning via fine-tuning.
+    
+    - Baseline Models:
+    
+        - Linear probe CLIP
+        
+        - Zero-shot CLIP
+        
+        - CoOp
+        
+    - Experiments
+    
+        - Few-Shot Learning(ImageNet, StanfordCars, UCF101, Caltech101, Flowers102, SUN397, EuroSAT, FGVCAircraft, OxfordPets, Food101)
+        
+        - Visualization of Manifold(t-SNE, EuroSAT)
+        
+        - Ablation Studies(DTD, ImageNet)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2086.png" /></p>
     
