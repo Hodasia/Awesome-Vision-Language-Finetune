@@ -465,6 +465,23 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2087.png" /></p>
     
 6. ****Tip-Adapter: Training-free CLIP-Adapter for Better Vision-Language Modeling**** [*[arXiv]*](https://arxiv.org/abs/2111.03930) [*[code]*](https://github.com/gaopengcuhk/Tip-Adapter)
+    - Trianing-Free CLIP-Adapter (Tip-Adapter) has strong performance on few-classification via directly setting the weights of adapter with a **cache model** to avoid the conventional SGD fine-tuning.
+    
+    - Pre-Trianed Models:
+    
+        - Zero-shot CLIP
+        
+        - Linear-porbe CLIP
+        
+        - CLIP-Adapter
+        
+        - CoOp
+        
+    - Tasks:
+    
+        - Efficiency Comparison(ImageNet, StandfordCars, UCF101, Caltech101, Flowers102, SUN397, DTD, EuroSAT, FGVCAircraft, OxfordPets, Food101)
+        
+        - Ablation Studies(ImageNet)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2088.png" /></p>
     
