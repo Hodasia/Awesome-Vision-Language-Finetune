@@ -135,7 +135,25 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
         
     - Vision-Audio Adaption(ImageNet, ESC-50)
     <p align="center"><img width=50% src="https://github.com/linzhiqiu/cross_modal_adaptation/blob/main/assets/methodology.png" /></p>
+17. ****Not All Features Matter: Enhancing Few-Shot CLIP with Adaptive Prior Refinement**** [*[arXiv]*](https://arxiv.org/pdf/2304.01195.pdf)[*[code]*](https://github.com/yangyangyang127/APE)
+- Adaptive Prior Refinement method (APE) directly utilizes the refined cache model for inference and explore the trilateral affinities  between the text image, the refined cache model and textual representations for robust training-free recognition.
     
+- Training-required APE-T simply trains lightweight category residuals on top other than costly fine-tuning the entire cache model.
+    
+- Pre-Trained Models:
+    
+    - CLIP
+        
+    - CoOp
+        
+    - Tip-Adapter
+        
+- Tasks
+    
+    - Comprehensive Evaluation(ImageNet, Caltech101, DTD, EuroSAT, FGVCAircraft, Flowers102, Food101, OxfordPets, StandfordCars, SUN397, UCF101)
+        
+    - Generalization Ability(ImageNet-V2, ImageNet-Sketch)
+    <p align="center"><img width=50% src="https://github.com/yangyangyang127/APE/raw/main/framework.png" /></p>
 
 ## 2022
 
