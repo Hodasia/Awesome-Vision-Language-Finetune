@@ -121,39 +121,50 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2014.png" /></p>
 16. ****Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning with Multimodal Models**** [*[CVPR]*](https://arxiv.org/abs/2301.06267) [*[code]*](https://github.com/linzhiqiu/cross_modal_adaptation)
-- The cross-modal adaptation approach treats examples from different modalities as additional few-shot examples, encoding different modalities to the same representation space.
+    - The cross-modal adaptation approach treats examples from different modalities as additional few-shot examples, encoding different modalities to the same representation space.
     
-- Pre-trained Models:
+    - Pre-trained Models:
     
-    - CLIP
+        - CLIP
         
-    - AudioCLIP
+        - AudioCLIP
         
-- Task:
+    - Task:
     
-    - Vision-Language Adaption(Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, DTD, EuroSAT, UCF101)
+        - Vision-Language Adaption(Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, DTD, EuroSAT, UCF101)
         
-    - Vision-Audio Adaption(ImageNet, ESC-50)
+        - Vision-Audio Adaption(ImageNet, ESC-50)
     <p align="center"><img width=50% src="https://github.com/linzhiqiu/cross_modal_adaptation/blob/main/assets/methodology.png" /></p>
 17. ****Not All Features Matter: Enhancing Few-Shot CLIP with Adaptive Prior Refinement**** [*[arXiv]*](https://arxiv.org/pdf/2304.01195.pdf)[*[code]*](https://github.com/yangyangyang127/APE)
-- Adaptive Prior Refinement method (APE) directly utilizes the refined cache model for inference and explore the trilateral affinities  between the text image, the refined cache model and textual representations for robust training-free recognition.
+    - Adaptive Prior Refinement method (APE) directly utilizes the refined cache model for inference and explore the trilateral affinities  between the text image, the refined cache model and textual representations for robust training-free recognition.
     
-- Training-required APE-T simply trains lightweight category residuals on top other than costly fine-tuning the entire cache model.
+    - Training-required APE-T simply trains lightweight category residuals on top other than costly fine-tuning the entire cache model.
     
-- Pre-Trained Models:
+    - Pre-Trained Models:
     
-    - CLIP
+        - CLIP
         
-    - CoOp
+        - CoOp
         
-    - Tip-Adapter
+        - Tip-Adapter
         
-- Tasks
+    - Tasks
     
-    - Comprehensive Evaluation(ImageNet, Caltech101, DTD, EuroSAT, FGVCAircraft, Flowers102, Food101, OxfordPets, StandfordCars, SUN397, UCF101)
+        - Comprehensive Evaluation(ImageNet, Caltech101, DTD, EuroSAT, FGVCAircraft, Flowers102, Food101, OxfordPets, StandfordCars, SUN397, UCF101)
         
-    - Generalization Ability(ImageNet-V2, ImageNet-Sketch)
+        - Generalization Ability(ImageNet-V2, ImageNet-Sketch)
     <p align="center"><img width=50% src="https://github.com/yangyangyang127/APE/raw/main/framework.png" /></p>
+18. ****Exploring Vision-Language Models for Imbalanced Learning**** [*[arXiv]*](https://arxiv.org/pdf/2304.01457.pdf) [*[code]*](https://github.com/Imbalance-VLM/Imbalance-VLM)
+    - Imbalance-VLM uses supervised imbalanced methods in conjunction with VLMs to improve the performance of VLMs on tail classes, incorporating lightweight decoder after the ViT of VLMs to save memory and capture subtle features for tail classes.
+    
+    - Pre-Trained Models:
+    
+        - CLIP
+        
+        - Laion-CLIP
+        
+    - Datasets(ImageNet-LT, Places-LT, iNaturalist2018)
+    <p align="center"><img width=50% src="https://github.com/Imbalance-VLM/Imbalance-VLM/raw/master/main-figure.png" /></p>
 
 ## 2022
 
