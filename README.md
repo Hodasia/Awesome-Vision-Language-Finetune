@@ -165,6 +165,13 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
         
     - Datasets(ImageNet-LT, Places-LT, iNaturalist2018)
     <p align="center"><img width=50% src="https://github.com/Imbalance-VLM/Imbalance-VLM/raw/master/main-figure.png" /></p>
+19. ****Prompt Pre-Training with Twenty-Thousand Classes for Open-Vocabulary Visual Recognition**** [*[arXiv]*](https://arxiv.org/pdf/2304.04704.pdf) [*[code]*](https://github.com/amazon-science/prompt-pretraining)
+    - POMP is a memory and computation efficient model and enables the learned prompt to condense semantic information for a rich set of visual concepts with over twenty-thousand classes.
+    
+    - Backbone: CLIP(ViT/B-16)
+    
+    - Dataset: ImageNet-21K
+    <p align="center"><img width=50% src="https://github.com/amazon-science/prompt-pretraining/raw/main/docs/main_figure.png" /></p>
 
 ## 2022
 
