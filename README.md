@@ -38,6 +38,15 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%201.png" /></p>
     
 3.  ****Debiasing Vision-Language Models via Biased Prompts**** [*[arXiv]*](https://arxiv.org/abs/2302.00070) [*[code]*](https://github.com/chingyaoc/debias_vl)
+    - Debias_VL is a general approach for self-debiasing foundation vision-language models by projecting out biased directions in the text embedding.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Experiments
+    
+        - Discriminative models(zero-shot classifier, text-image retrieval)
+        
+        - Generative models(text-to-image)
 
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%202.png" /></p>
 
