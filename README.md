@@ -13,7 +13,14 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
 
 ## 2023
 
-1.  ****Dual Modality Prompt Tuning for Vision-Language Pre-Trained Model**** [*[CVPR]*](https://arxiv.org/abs/2208.08340) [*[code]*](https://github.com/fanrena/DPT) 
+1.  ****Dual Modality Prompt Tuning for Vision-Language Pre-Trained Model**** [*[CVPR]*](https://arxiv.org/abs/2208.08340) [*[code]*](https://github.com/fanrena/DPT)
+    - Dual-modality Prompt Tuning (DPT) can learn text and visual prompts for both the text and image encoder simultaneously, equipped with a Class-Aware Visual Prompt Tuning(CAVPT) scheme to help the final obtained image feature concentrate more on the target visual concept.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Datasets: EuroSAT, Caltech1-1, OxfordFlowers, Food101, FGVCAircraft, DTD, OxfordPets, StandfordCars, ImagNet1K, Sun397, UCF101
+    
+    - Domain Generalization(ImageNet, ImageNetV2, ImageNet-Sketch, ImageNet-A, ImageNet-R) 
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled.png" /></p>
     
 2.  ****Scaling & Shifting Your Features: A New Baseline for Efficient Model Tuning**** [*[NeurlPS]*](https://arxiv.org/abs/2210.08823) [*[code]*](https://github.com/dongzelian/SSF) 
