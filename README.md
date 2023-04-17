@@ -69,6 +69,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%203.png" /></p>
     
 5. ****VoLTA: Vision-Language Transformer with Weakly-Supervised Local-Feature Alignment**** [*[arXiv]*](https://arxiv.org/abs/2210.04135)
+    - VoLTA (Vision-Language Transformer with weakly-supervised local-feature Alignment) is only utilizes image-caption data but achieves fine-grained region-level image understanding, eliminating the use of expensive box annotations.
+    
+    - Foundational Objective: Barlow Twins
+    
+    - Pre-Training & Downstream datasets: COCO, ImageNet, VOC07, LVIS, NLVR, Flicker30k
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%204.png" /></p>
     
