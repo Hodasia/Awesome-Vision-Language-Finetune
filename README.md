@@ -107,6 +107,13 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%205.png" /></p>
     
 7. ****SgVA-CLIP: Semantic-guided Visual Adapting of Vision-Language Models for Few-shot Image Classification**** [*[arXiv]*](https://arxiv.org/abs/2211.16191)
+    - Semantic-Guided Visual Adapting (SgVA) extends vision-language pre-trained models to produce discriminative adapted visual features with the guidance of the fine-grained cross-modal knowledge learned by the pre-trained model.
+    
+    - Baselines and Benchmarks
+    
+        - PEMnE-BMS\*, HCTransformers, CLIP_LP+LN, P>M>F, cluster-FSL, PT+MAP, EPNet and EASY(miniImagenet and tieredImagenet)
+        
+        - Zero-shot CLIP, CoOp, CLIP-Adapter, ProGrad(ImageNet, StandfordCars, UCF101, Caltech101, Flowers102, SUN397, DTD, EuroSAT, FGVCAircraft, OxfordPets, Food101)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%206.png" /></p>
     
