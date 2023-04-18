@@ -200,6 +200,25 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     - Dataset: ImageNet-21K
     <p align="center"><img width=50% src="https://github.com/amazon-science/prompt-pretraining/raw/main/docs/main_figure.png" /></p>
+20. ****Chain of Thought Prompt Tuning for Vision-Language Models**** [*[arXiv]*] (https://arxiv.org/pdf/2304.07919.pdf)
+    - Chain of Thought for prompt tuning combines visual and textual embeddings in vision domain and is consistent with the human learning paradigm, providing unique insight in vision domain.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Datasets: ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN39, UCF101, DTD, EuroSAT
+    
+    - Tasks
+    
+        - Base-to-New Generalization
+        
+        - Cross-dataset Evaluation
+        
+        - Domain Gneralization
+        
+        - Image-Text Retrieval
+        
+        - Visual Question Answering
+    <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitiled95.jpg" /></p>
 
 ## 2022
 
