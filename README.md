@@ -232,6 +232,17 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
         
         - Complex Reasoning
      <p align="center"><img width="50%" src="https://llava-vl.github.io/images/llava_arch.png" /></p>
+22. ****Towards Robust Prompt on Vision-Language Models**** [*[arXiv]*](https://arxiv.org/pdf/2304.08479.pdf)
+    - Robust Prompt Learning(ProL) improves robustness to both base and novel classes by integrating multi-scale features of an image into the prompt compared to existing in-context learning (IcoL) and ProL approaches, which is motivated by the robust multi-scale network architecture.
+    
+    - VLM: MEGMA(visual encoder NF_RN20x16 and language model GPT-Neo)
+    
+    - Datasets:
+    
+        - in-distribution data:ImageNet-1k
+        
+        - out-of-distribution(OOD) data: ImageNet-V2(re-collected ImageNet-like images), ImageNet-R(rendition images), ImageNet-C(natural corrupted images), ImageNet-S(sketch images), ImageNet-A(natural adversarial images)
+    <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled96.jpg" /></p>
 
 ## 2022
 
