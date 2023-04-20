@@ -219,6 +219,19 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
         
         - Visual Question Answering
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitiled95.jpg" /></p>
+21. ****Visual Instruction Tuning**** [*[arXiv]*](https://arxiv.org/pdf/2304.08485.pdf) [*[code]*](https://llava-vl.github.io/)
+    - Large Language and Vision Assistant (LLaVA) is an end-to-end trained large multimodal model that connects the open-set visual  encoder of CLIP and large language models (LLM) for general purpose visual and language understanding.
+    
+    - Pre-Trained Model: CLIP
+    
+    - GPT-assisted Visual Instruction Data Generation: leverage language only GPT-4 or ChatGPT as the strong teacher to create instruction0following data involving visual content
+    
+        - Conversation
+        
+        - Detailed Description
+        
+        - Complex Reasoning
+     <p align="center"><img width="50%" src="https://llava-vl.github.io/images/llava_arch.png" /></p>
 
 ## 2022
 
