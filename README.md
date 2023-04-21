@@ -243,6 +243,20 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
         
         - out-of-distribution(OOD) data: ImageNet-V2(re-collected ImageNet-like images), ImageNet-R(rendition images), ImageNet-C(natural corrupted images), ImageNet-S(sketch images), ImageNet-A(natural adversarial images)
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled96.jpg" /></p>
+    
+23. ****Progressive Visual Prompt Learning with Contrastive Feature Re-formation**** [*[arXiv]*](https://arxiv.org/pdf/2304.08386.pdf)
+    - Progressive Visual Prompt (ProVP) demonstrates the effectiveness of visual prompts in V-L pre-trained models. It also prevents the serious deviation of the prompted visual feature form CLIP visual feature distribution.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Tasks:
+    
+        - Few-Shot Learning(train on 1,2,4,8,shots and test on full test sets)
+        
+        - Base-to-Novel Generalization(train on 16 shots )
+        
+        - Datasets(11 benchmarks:ImageNet, Caltech101, FGVCAircraft, Flowers102, Food101, OxfordPets, StandfordCars, EuroSAT, DTD, SUN397, UCF101)
+    <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled97.jpg" /></p>
 
 ## 2022
 
