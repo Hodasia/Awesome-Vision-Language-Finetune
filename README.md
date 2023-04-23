@@ -118,6 +118,21 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%206.png" /></p>
     
 8. ****Understanding and Mitigating Overfitting in Prompt Tuning for Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2211.02219) [*[code]*](https://tinyurl.com/mpe64f89)
+    - Subspace Prompt Tuning(SubPT) and Novel Feature Learner(NFL) boost the performance of CoOp and outperform the state-of-art CoCoOp approach
+    
+        - SubPT projects the gradients in back-propagation onto the low-rank subspace spanned by the early-stage gradient flow eigenvectors durning the entire training process and successfully eliminate the overfitting problem.
+        
+        - NFL enhances the generalization ability of the learned prompts onto novel categories beyond the training set, needless of image training data.
+        
+    - Pre-Trained Model: CoOp
+    
+    - Tasks:
+    
+        - Datasets(ImageNet, Caltech101, Oxford Pets, Stanford Cars, Flowers 102, Food 101, FGVC Aircraft, SUN 397, DTD, EuroSAT, UCF 101)
+        
+        - Base-to-Novel Generalization(first half of categories as base classes and the second half as novel classes within each dataset)
+        
+        - Domain Generalization(source domain: ImagNet, target domain: ImageNet-V2, ImageNet-Sketch, ImageNet-A, ImageNet-R)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%207.png" /></p>
     
