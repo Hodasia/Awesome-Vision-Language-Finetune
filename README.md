@@ -136,7 +136,12 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%207.png" /></p>
     
-9. ****Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning**** [*[arXiv]*](https://arxiv.org/abs/2302.04858) 
+9. ****Re-ViLM: Retrieval-Augmented Visual Language Model for Zero and Few-Shot Image Captioning**** [*[arXiv]*](https://arxiv.org/abs/2302.04858)
+    - Retrieval-augmented Visual Language Model (Re-ViLM) supports retrieving the relevant knowledge from the external database for zero and in-context few-shot image-to-text generations.
+    
+    - Baseline: Flamingo
+    
+    - Benchmarks: MSCOCO, Flickr30k, NoCaps 
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%208.png" /></p>
     
