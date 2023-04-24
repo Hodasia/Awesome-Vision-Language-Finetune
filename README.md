@@ -146,6 +146,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%208.png" /></p>
     
 10. ****VoP: Text-Video Co-operative Prompt Tuning for Cross-Modal Retrieval**** [*[CVPR]*](https://arxiv.org/abs/2211.12764) [*[code]*](https://github.com/bighuang624/VoP)
+    - Text-Video Co-operative Prompt Tuning is an end-to-end framework with both video and text prompts introducing, offering position-specific, context-specific and function-specific video prompt.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Benchmarks: MSR-VTT, DiDeMo, ActivityNet, LSMDC
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%209.png" /></p>
     
