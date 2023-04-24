@@ -155,6 +155,13 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%209.png" /></p>
     
 11. ****Contrastive Prompt Tuning Improves Generalization in Vision-Language Models**** [*[ICLR]*](https://openreview.net/forum?id=g4JB0ksCrKe)
+    - Contrastive Prompt Tuning(CPT) can augment the standard cross-entropy loss with two additional contrastive loss terms driven by a hypothesis that contrastive losses can improve generalization by making the model output invariant to small input perturbations.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Datasets:ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, DTD, DuroSAT, UCF101, ImageNetV2, ImageNet-Sketch, ImageNet-A, ImageNet-R
+    
+    - Baselines: Zero-shot CLIP, CoOp, CoCoOp, CLIP-Adapter, Tip-Adapter
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2010.png" /></p>
     
