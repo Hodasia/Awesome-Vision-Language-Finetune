@@ -78,16 +78,16 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%204.png" /></p>
     
 6. ****CLIP-ViP: Adapting Pre-trained Image-Text Model to Video-Language Representation Alignment**** [*[ICLRr]*](https://arxiv.org/abs/2209.06430) [*[code]*](https://github.com/microsoft/XPretrain/tree/main/CLIP-ViP)
-- CLIP-ViP model is proposed in three aspects:
+    - CLIP-ViP model is proposed in three aspects:
     
-    - adopt an image captioning model instead of using video captioning model
+        - adopt an image captioning model instead of using video captioning model
         
-    - equip with Video Proxy mechanism
+        - equip with Video Proxy mechanism
         
-    - use Omnisource Cross-modal Learning(OCL)
-- Preliminary:
+        - use Omnisource Cross-modal Learning(OCL)
+    - Preliminary:
     
-    - post-pretraining with different data-scale
+        - post-pretraining with different data-scale
         
         - pre-trained models: CLIP-ViT-B/32, CLIP4Clip
             
@@ -98,11 +98,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
         - datasets: MSR-VTT, DiDeMo, HD-VILA-100M, webVid-2.5M, MS-COCO, Conceptual Caption 12M
             
         - pre-trained model: CLIP
- - Tasks:
+    - Tasks:
     
-    - Video-Text Post-Pretrainig(HD-VILA-100M)
+        - Video-Text Post-Pretrainig(HD-VILA-100M)
         
-    - Fine-tuning Training(MSR-VTT, DiDeMo, LSMDC, ActivityNet)
+        - Fine-tuning Training(MSR-VTT, DiDeMo, LSMDC, ActivityNet)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%205.png" /></p>
     
@@ -202,7 +202,12 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2013.png" /></p>
     
-15. ****Fine-tuned CLIP Models are Efficient Video Learners**** [*[CVPR]*](https://arxiv.org/abs/2212.03640) [*[code]*](https://github.com/muzairkhattak/ViFi-CLIP) 
+15. ****Fine-tuned CLIP Models are Efficient Video Learners**** [*[CVPR]*](https://arxiv.org/abs/2212.03640) [*[code]*](https://github.com/muzairkhattak/ViFi-CLIP)
+    - Video Finetuned CLIP (ViFi-CLIP) is a simple but strong baseline for adapting image-based CLIP to video-specific tasks and also proposes a two-stage ‘bridge and prompt‘ approach to first bridge the modality gap through fine-tuning followed by prompt learning in both visual and language branches of the CLIP model for low-data regimes.
+    
+    - Pre-Trained Model: ViT-B/16 based CLIP
+    
+    - Benchmarks: Kinetics-400 and 600, HMDB-51, UCF-101, Something Something V2(SSv2) 
     
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2014.png" /></p>
 16. ****Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning with Multimodal Models**** [*[CVPR]*](https://arxiv.org/abs/2301.06267) [*[code]*](https://github.com/linzhiqiu/cross_modal_adaptation)
