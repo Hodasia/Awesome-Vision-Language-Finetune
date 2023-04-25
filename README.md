@@ -166,6 +166,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2010.png" /></p>
     
 12. ****Vision Transformer Adapter for Dense Predictions**** [*[ICLR]*](https://arxiv.org/abs/2205.08534) [*[code]*](https://github.com/czczup/ViT-Adapter)
+    - Vision Transformer Adapter(ViP-Adapter) introduces vision-specific inductive biases into the plain ViT (3 tailored modules: spatial prior, spatial feature injector, multi-scale feature extractor) and develops an adapter to close the performance gap between the plain ViT and vision-specific backbones for dense prediction tasks.
+    
+    - Backbone: Plain ViT
+    
+    - Benchmarks: MMDetection, COCO, ADE20K
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2011.png" /></p>
     
