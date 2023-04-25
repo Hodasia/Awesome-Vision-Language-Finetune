@@ -175,6 +175,17 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2011.png" /></p>
     
 13. ****T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models**** [*[arXiv]*](https://arxiv.org/abs/2302.08453) [*[code]*](https://github.com/TencentARC/T2I-Adapter)
+    - T2I-Adapter can well align the internal knowledge of T2I models and external control signals with a low training cost, providing more accurate controllable guidance to existing T2I models while not affecting their original generation ability.
+    
+    - Pre-Trained Model: Stable Diffusion (SD)
+    
+    - Tasks:
+    
+        - Sketch Map: COCO
+        
+        - Semantic Segmentation Map: COCO_Stuff
+        
+        - Keypoints Map: LAION-AESTHETICS, MMPose
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2012.png" /></p>
     
