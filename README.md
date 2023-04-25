@@ -190,6 +190,15 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2012.png" /></p>
     
 14. ****Debiased Fine-Tuning for Vision-language Models by Prompt Regularization**** [*[arXiv]*](https://arxiv.org/abs/2301.12429)
+    - Prompt Regularization(ProReg)can fine-tune the resultant model, neither biased towards the pretrained knowledge which is represented with the “soft“ label of the downstream data nor towards the downstream knowledge which is formulated as the ground-truth annotations in downstream tasks.
+    
+    - Pre-Trained Models: CLIP, ViLT
+    
+    - Tasks:
+    
+        - image classification: BAR, NICO, PACS, DomainNet
+        
+        - visual question answering: VQA-CP
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2013.png" /></p>
     
