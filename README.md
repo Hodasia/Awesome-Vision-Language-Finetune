@@ -323,6 +323,15 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
 ## 2022
 
 1. **Learning to Prompt for Continual Learning** [*[CVPR]*](https://arxiv.org/abs/2112.08654) [*[code]*](https://github.com/google-research/l2p)
+    - Learning to dynamically prompt(L2P) is a novel continual learning framework based on prompts for continual learning, providing a new mechanism to tackle contiunal learning challenges through learning a prompt pool memory space, which are served as parameterized “instructions“ for pre-trained models to learn tasks sequentially.
+    
+    - Datasets
+    
+        - class-incremental setting: Split CIFAR-100, CIFAR-10, MNIST, Fashion-MNIST, SVHN, notMNIST
+        
+        - domain-incremental setting: CORe50
+        
+        - task-agnostic setting: Gaussian scheduled CIFAR-100
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2015.png" /></p>
     
