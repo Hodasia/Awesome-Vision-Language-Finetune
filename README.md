@@ -77,7 +77,7 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%204.png" /></p>
     
-6. ****CLIP-ViP: Adapting Pre-trained Image-Text Model to Video-Language Representation Alignment**** [*[ICLRr]*](https://arxiv.org/abs/2209.06430) [*[code]*](https://github.com/microsoft/XPretrain/tree/main/CLIP-ViP)
+6. ****CLIP-ViP: Adapting Pre-trained Image-Text Model to Video-Language Representation Alignment**** [*[ICLR]*](https://arxiv.org/abs/2209.06430) [*[code]*](https://github.com/microsoft/XPretrain/tree/main/CLIP-ViP)
     - CLIP-ViP model is proposed in three aspects:
     
         - adopt an image captioning model instead of using video captioning model
@@ -336,6 +336,15 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2015.png" /></p>
     
 2. **Visual Prompt Tuning** [*[ECCV]*](https://arxiv.org/abs/2203.12119) [*[code]*](https://github.com/kmnp/vpt)
+    - Visual Prompt Tuning (VPT) introduces a small amount of task-specific learnable parameters into the input space while freezing the entire pre-trained Transformer backbone during downstream training.
+    
+    - Pre-trained Model: Vision Transformers(ViT) and Swin Transformers(Swin)
+    
+    - Tasks:
+    
+        - FGVC(5 benchmarked Fine-Grained Visual Classification): CUB-200-2011, NABirds, Oxford Flowers, Stanford Dogs, Stanford Cars
+        
+        - VTAB-1k(19 diverse visual classification): Natural, Specialized and Structured Groups.
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2016.png" /></p>
     
