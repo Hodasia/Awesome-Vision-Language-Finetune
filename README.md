@@ -349,6 +349,15 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2016.png" /></p>
     
 3. **Unified Vision and Language Prompt Learning** [*[CVPR]*](https://arxiv.org/abs/2210.07225) [*[code]*](https://github.com/yuhangzang/UPT)
+    - Unified Prompt Tuning(UPT) learns a tiny neural network to jointly optimize prompts across different modalities and thus presents a unified prompt method for VL models to tune both visual and text modality representations.
+    
+    - Baselines: Zero-shot CLIP, Single-modal Prompt Tuning(CoOp, CoCoOp, VPT)
+    
+    - Tasks:
+    
+        - Few-Shot Learning(ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVC-Aircraft, SUN397, UCF101, DTD, EuroSAT)
+        
+        - Domain Generalization(ImageNet, ImageNet-V2, ImageNet-Sketch, ImageNet-A, ImageNet-R)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2017.png" /></p>
     
