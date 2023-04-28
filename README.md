@@ -362,6 +362,21 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2017.png" /></p>
     
 4. ****AdaptFormer: Adapting Vision Transformers for Scalable Visual Recognition**** [*[NeurlPS]*](https://arxiv.org/abs/2205.13535) [*[code]*](https://github.com/ShoufaChen/AdaptFormer)
+    - AdaptFormer can adapt vision transformers to a large variety of downstream visual recognition tasks and avoid catastrophic interference with each other.It also introduces lightweight modules that only add less that 2% extra parameters to a ViT.
+    
+    - Pre-Trained Backbone:
+    
+        - Vision Transformer(ViT)
+        
+        - Image:supervised pre-trained model(ImageNet-21k), self0supervised model(MAE)
+        
+        - Video: supervised and self-supervised pre-trained models(VideoMAE)
+        
+    - Downstream tasks:
+    
+        - Image Domain(CIFAR-100, SVHN, Food-101)
+        
+        - Video domain(SSv2, HDMB51)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2018.png" /></p>
     
