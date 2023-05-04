@@ -381,6 +381,23 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2018.png" /></p>
     
 5. ****Neural Prompt Search**** [*[arXiv]*](https://arxiv.org/abs/2206.04673) [*[code]*](https://github.com/ZhangYuanhan-AI/NOAH)
+    - The concept of Neural Prompt Search (NOAH) is a novel approach that learns, for large vision models like Adapter, LoRA and VPT, the optimal design of prompt modules through a neural architecture search (NAS) algorithm, specifically for each downstream dataset.
+    
+    - Baselines:
+    
+        - Adapter(language models)
+        
+        - LoRA(language models)
+        
+        - VPT(vision models)
+        
+    - Tasks:
+    
+        - VTAB-1k(clustered into Natural Specialized and Structured groups)
+        
+        - Few-shot learning(Food101, OxfordFlowers102, StandfordCars, OxfordPets, FGVCAircraft)
+        
+        - Domain Generalization(ImageNet, ImageNetV2, ImageNet-Sketch, ImageNet-A, ImageNet-R)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2019.png" /></p>
     
