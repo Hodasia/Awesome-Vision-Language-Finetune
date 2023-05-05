@@ -401,7 +401,24 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2019.png" /></p>
     
-6. ****Convolutional Bypasses Are Better Vision Transformer Adapters**** [*[arXiv]*](https://arxiv.org/abs/2207.07039) [*[code]*](https://github.com/JieShibo/PETL-ViT) arXiv*
+6. ****Convolutional Bypasses Are Better Vision Transformer Adapters**** [*[arXiv]*](https://arxiv.org/abs/2207.07039) [*[code]*](https://github.com/JieShibo/PETL-ViT)
+    - Convolutional Bypasses(Convpass) is an effective parameter-efficient transfer learning(PETL)method which leverages trainable convolutional blocks as bypasses to adapt pretrained ViT to downstream visual tasks.
+    
+    - Tasks
+    
+        - Transfer Learning
+        
+            - Datasets: VTAB-1K
+            
+            - Baselines: Full finetuning, Linear evaluation, VPT, Adapter, Adaptformer, LoRA, NOAH
+            
+        - Few-Shot Learning(FGVCAircraft, OxfordPets, Food101, StanfordCars, OxfordFlowers102)
+        
+        - Domain Generalization
+        
+            - Datasets:ImageNet-1K, ImageNet-V2, ImageNet-Sketch, ImageNet-A, ImageNet-R
+            
+            - Baselines: CLIP, CoOp, CoCoOp, Tip-Adapter-F
     <table><tr>
         <td>
             <img src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2020.png" border=0/></p>
