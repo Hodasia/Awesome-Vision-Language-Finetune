@@ -429,6 +429,19 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     </tr></table>
          
 7. ****Conv-Adapter: Exploring Parameter Efficient Transfer Learning for ConvNets**** [*[arXiv]*](https://arxiv.org/abs/2208.07463)
+    - Conv-Adapter is a light-weight and plug-and-play PET module designed for ConvNets in CV tasks,  along with four adapting variants and following tow design dimensions - transferability and parameter efficiency.
+    
+    - Tasks:
+    
+        - Datasets:VTAB-1k and FGVC
+        
+        - Transferability: Full Fine-tuning, Linear Probing Bias Tuning, Visual Prompt Tuning
+        
+        - Universality: ResNet50, ConvNext-B, ConvNext-L, CLIP MoCov3
+        
+        - Few-shot Classification:ResNet50, ConvNext-B
+        
+        - Object Detection and Semantic Segmentation: ResNet50, ConvNext-S
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2022.png" /></p>
     
