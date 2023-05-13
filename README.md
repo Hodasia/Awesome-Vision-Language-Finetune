@@ -446,6 +446,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2022.png" /></p>
     
 8. ****ST-Adapter: Parameter-Efficient Image-to-Video Transfer Learning**** [*[NeurlPS]*](https://arxiv.org/abs/2206.13559) [*[code]*](https://github.com/linziyi96/st-adapter)
+    - Parameter-effiicient Spatio-Temporal Adapter(ST-Adapter) is capable of extracting and leveraging the pre-trained knowledge of a large image model to achieve superior video understanding at a small parameter cost while is also easy to implement and friendly to deployment by grounding all the primitive on standard operators.
+    
+    - Datasets: Kinetics-400, Something-Something-v2, Epic-Kitchens-100
+    
+    - Pre-trained model: ViT
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2023.png" /></p>
     
