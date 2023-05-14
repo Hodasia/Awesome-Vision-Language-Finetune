@@ -455,6 +455,15 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2023.png" /></p>
     
 9. ****Parameter-efficient Model Adaptation for Vision Transformers**** [*[arXiv]*](https://arxiv.org/abs/2203.16329)
+    - The parameter-efficient model adaptation framework first selects submodules by measuring local intrinsic dimensions and then projects them into subspace for further decomposition via a novel Kronecker Adaptation(KAdaptation) method.
+    
+    - Baselines: ViTs
+    
+    - Tasks:
+    
+        - Few-shot: ELEVATER benchmark
+        
+        - full-shot: CIFAR10, CIFAR100, SUN397, DTD, STL10, FGVCAircraft, FER2013
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2024.png" /></p>
     
