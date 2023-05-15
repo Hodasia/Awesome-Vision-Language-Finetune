@@ -468,6 +468,15 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2024.png" /></p>
     
 10. ****VL-Adapter: Parameter-Efficient Transfer Learning for Vision-and-Language Tasks**** [*[CVPR]*](https://arxiv.org/abs/2112.06825) [*[code]*](https://github.com/ylsung/VL_adapter)
+    - The authors benchmark different types of parameter-efficient training techniques(Adapter, Hyperformer and Compacter) for diverse challenging downstream image-text and video-text tasks and analyze the freezing CLIP.
+    
+    - V&L Models: VL-BART, VL-T5
+    
+    - Datasets:
+    
+        - image-text: VQAv2, GQA, NLVR2, MSCOCO
+        
+        - video-text: VALUE, TVQA, How2QA, TVC, YC2C
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2025.png" /></p>
     
