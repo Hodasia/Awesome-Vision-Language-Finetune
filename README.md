@@ -481,6 +481,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2025.png" /></p>
     
 11. ****Prompt Vision Transformer for Domain Generalization**** [*[arXiv]*](https://arxiv.org/abs/2208.08914)
+    - Domain generalization algorithm DoPrompt for vision transformers with Domain Prompt Learning(DPL) and Prompt Adatper Learning(PAL) embed the knowledge of source domains in domain prompts for target domain prediction.
+    
+    - Baseline: ERM with ViT backbone
+    
+    - Datasets: PACS, VLCS, OfficeHome, DomainNet
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2026.png" /></p>     
 12. ****Visual Prompt Tuning for Generative Transfer Learning**** [*[arXiv]*](https://arxiv.org/abs/2210.00990)
