@@ -506,6 +506,15 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2027.png" /></p>
     
 13. ****Learning Domain Invariant Prompt for Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2212.04196)
+    - MetaPrompt directly generates domain invariant prompt generalizable to unseen domains  by proposing a episodic prompt tuning algorithm.
+    
+    - Pre-trained model: CLIP
+    
+    - Tasks:
+    
+        - base-to-new generalization: ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, UCF101, DTD, EuroSAT
+        
+        - conventional domain generalization: DomainBed(VLCS, PACS, OfficeHome, DomainNE)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2028.png" /></p>
     
