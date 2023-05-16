@@ -489,6 +489,19 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2026.png" /></p>     
 12. ****Visual Prompt Tuning for Generative Transfer Learning**** [*[arXiv]*](https://arxiv.org/abs/2210.00990)
+    - Generative visual transfer learning framework for vision transformers with prompt tuning proposes a prompt token generator design and a prompt engineering method for image synthesis.
+    
+    - Tasks
+    
+        - Baselines: GAN-based generative transfer learning methods
+        
+        - Generative Transfer on visual task adaptation benchmark(VTAB):Caltech-101, CIFAR-100, SUN397, SVHN, Flowers102, Pet, DTD, EuroSAT, Resisc45, Patch Camelyon, Diabetic Retinopathy, Kitti, Smallnorb (azimuth, elevation), Dsprites (x position, orientation), Clevr (object distance, count), DMLab
+        
+        - Few-shot Generative Transfer
+        
+            - NAR transformer
+            
+            - Dataset: Places, ImageNet, Animal Face
     
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2027.png" /></p>
     
