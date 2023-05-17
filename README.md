@@ -528,6 +528,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2029.png" /></p>
     
 15. ****Prompt-Matched Semantic Segmentation**** [*[arXiv]*](https://arxiv.org/abs/2208.10159)
+    - Stage-wise Prompt-Matched Framework is proposed to effectively and efficiently fine-tune those pre-trained foundation backbones with frozen parameters.Plus, a lightweight SPM is introduced to progressively learn reasonable visual prompts between different stages of the backbone through a recurrent mechanism.
+    
+    - Downstream Datasets: ADE20k, Vaihingen, CHASE-DB1, STARE
+    
+    - Backbone Network: ReNet-101(pretrained on ImageNet-1K)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2030.png" /></p>
     
