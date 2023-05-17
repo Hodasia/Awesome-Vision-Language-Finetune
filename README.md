@@ -519,6 +519,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2028.png" /></p>
     
 14. ****Domain-Unified Prompt Representations for Source-Free Domain Generalization**** [*[arXiv]*](https://arxiv.org/abs/2209.14926) [*[code]*](https://github.com/muse1998/Source-Free-Domain-Generalization)
+    - Source-free domain generalization(SFDG) method achieves domain generalization(DG) for visual tasks by learning domain-unified text encodings.
+    
+    - Pretrained Model: CLIP
+    
+    - Dataset: PACS, VLCS, OfficeHome, TerraIncognita, DomainNet
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2029.png" /></p>
     
