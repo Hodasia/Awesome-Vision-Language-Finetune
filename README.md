@@ -536,7 +536,10 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2030.png" /></p>
     
-16. ****Visual Prompting via Image Inpainting**** [*[arXiv]*](https://arxiv.org/abs/2209.00647) 
+16. ****Visual Prompting via Image Inpainting**** [*[arXiv]*](https://arxiv.org/abs/2209.00647)
+    - The authors provide a new dataset that allows a model to learn grid structures which are given a few examples of task inputs and outputs and a query image without any labeling, task descriptions, or any additional information about the grid structure.
+    
+    - Models and Baselines: VQGAN, BEiT, MAE 
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2031.png" /></p>
     
