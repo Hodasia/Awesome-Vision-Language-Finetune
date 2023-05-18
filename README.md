@@ -544,6 +544,27 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2031.png" /></p>
     
 17. ****Unleashing the Power of Visual Prompting At the Pixel Level**** [*[arXiv]*](https://arxiv.org/abs/2212.10556) [*[code]*](https://github.com/UCSC-VLAA/EVP)
+    - Enhanced Visual Prompting(EVP) includes two designs: first, the authors treat the prompt as an extra and independent learnable component. Second, they re-introduce input diversity and gradient normalization which often used in building transferable adversarial examples into visual prompting.
+    
+    - Baselines:
+    
+        - TP (text prompting)=zero-shot in CLIP
+        
+        - VP,
+        
+        - VPT,
+        
+        - LP (linear probing): uses a linear layer as the classification head
+        
+        - FT (fully fine-tuning):updates all parameters of the backbone and the classification head
+        
+    - Datasets:
+    
+        - classification datasets: CIFAR100, CIFAR10, Flowers102, Food101, EuroSAT, SUN397, SVHN, DTD, OxfordPets, Resisc45, CLEVR, and DMLab
+        
+        - out-of-distribution datasets: Camelyon17, FMoW, and iWildCAM
+        
+        - corruption datasets: CIFAR100-C and CIFAR10-C
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2032.png" /></p>
     
