@@ -569,6 +569,25 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2032.png" /></p>
     
 18. ****Exploring Visual Prompts for Adapting Large-Scale Models**** [*[arXiv]*](https://arxiv.org/abs/2203.17274) [*[code]*](http://hjbahng.github.io/visual_prompting)
+    - The authors demonstrates that visual prompting is particularly effective for CLIP and robust to distributions shift, achieving performance competitive with standard linear probes.
+    
+    - Pre-trained Models:
+    
+        - Instagram-pretrained ResNeXt (Instagram)
+        
+        - Big Transfer (BiT-M)
+        
+        - ResNet trained on ImageNet-1k (RN50)
+        
+        - CLIP
+        
+    - Baselines:fine-tuning, linear probes, and text prompting (i.e., zero-shot transfer)
+    
+    - Datasets
+    
+        - CIFAR100, CIFAR10, Flowers102, Food101, EuroSAT, SUN397, DTD, UCF101, SVHN , OxfordPets, Resisc45, and CLEVR
+        
+        - 3 image classification datasets in WILDS: Camelyon17, FMoW, and iWildCAM
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2033.png" /></p>
     
