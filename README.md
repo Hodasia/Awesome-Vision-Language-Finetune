@@ -592,6 +592,23 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2033.png" /></p>
     
 19. ****Visual Prompt Tuning for Test-time Domain Adaptation**** [*[arXiv]*](https://arxiv.org/abs/2210.04831)
+    - To tackle the test-time adaptation(TTA) problem, Data-efficient Prompt Tuning(DePT) is proposed with 2 key ingredients: first, visual prompts are plugged into the ViT and only tunes source-initialized prompts during adaptation. Second, DePT bootstraps the source representation to the target domain by memory bank-based online pseudo-labeling.
+    
+    - Domain Adaptation Benchmarks:
+    
+        - VisDA-C
+        
+        - ImageNet-C
+        
+        - DomainNet-126
+        
+    - Backbone: ViT-B
+    
+    - Baselines
+    
+        - UDA: DANN, CDAN, CAN, SWD, MCC
+        
+        - TTA: Tent, SHOT, CFA, AdaContrast
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2034.png" /></p>
     
