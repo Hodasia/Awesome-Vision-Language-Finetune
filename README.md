@@ -613,6 +613,17 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2034.png" /></p>
     
 20. ****Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models**** [*[NeurlPS]*](https://arxiv.org/abs/2209.07511) [*[code]*](https://azshue.github.io/TPT)
+    - Test-Time Prompt Tuning (TPT）can learn adaptive prompt on the fly with a single test sample in a zero-shot manner, and confidence selection is a simple plug-and-play module of TPT for image classification.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Tasks:
+    
+        - Robustness to Natural Distribution Shifts: ImageNet-V2, ImageNet-A, ImageNet-R, ImageNet-Sketch
+        
+        - Cross-Datasets Generalization: Flower102, OxfordPets,  SUN397, DTD, Food101,StanfordCars, Aircraft, UCF101, EuroSAT, Caltech101
+        
+        - Contest-dependent Visual Reasoning on Bongard-HOI
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2035.png" /></p>
     
