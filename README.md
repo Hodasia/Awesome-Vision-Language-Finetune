@@ -628,6 +628,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2035.png" /></p>
     
 21. ****Prompt Generation Networks for Efficient Adaptation of Frozen Vision Transformers**** [*[arXiv]*](https://arxiv.org/abs/2210.06466) [*[code]*](https://github.com/jochemloedeman/PGN)
+    - Prompt Generation Network (PGN) generates input-dependent visual prompts by sampling  items from a learned Token Library.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Datasets: CIFAR100&CIFAR10, Oxford Flowers, Food101, EuroSAT, SUN397, UCF101, SVHN, Oxford-IIIT Pets, DTD, RESISC, CLEVR
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2036.png" /></p>
     
