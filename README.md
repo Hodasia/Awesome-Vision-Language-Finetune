@@ -637,6 +637,13 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2036.png" /></p>
     
 22. **Multitask Vision-Language Prompt Tuning** [*[arXiv]*](https://arxiv.org/abs/2211.11720) [*[code]*](https://github.com/sIncerass/MVLPT)
+    - Multitask vision-language prompt tuning (MVLPT) framework incorporates cross-task knowledge into prompt tuning for vision-language models, incuding multitask prompt initialization and multitask prompt adaptation.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Source Tasks: ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, UDF101, DTD, EuroSAT
+        
+    - Target Tasks: 12 non-overlapped tasks in ELEVATER as Hateful Memes, PatchCamelyon, Rendered-SST2, KITTI Distance, FER 2013, CIFAR-10/100, VOC 2007 Classification, Country-211, MNIST, GTSRB, and Resisc45
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2037.png" /></p>
     
