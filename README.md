@@ -648,6 +648,13 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2037.png" /></p>
     
 23. ****Prompt Tuning with Soft Context Sharing for Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2208.13474)
+    - Soft Context Sharing for Prompt Tuning(SoftCPT) can fine-tune pre-trained vision-language models on multiple target few-shot tasks, which consists of a novel meta network that transforms task name to prompt vector.
+    
+    - A new few-shot fashion classification dataset is constructed to test the effectiveness of multi-task prompt tuning in real industrial scenario.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Datasets: General-10, Plant-6, Fashion-20
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2038.png" /></p>
     
