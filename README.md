@@ -668,6 +668,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2039.png" /></p>
     
 25. ****Language-Aware Soft Prompting for Vision & Language Foundation Models**** [*[arXiv]*](https://arxiv.org/abs/2210.01115)
+    - Language-Aware Soft Prompting (LASP) learning method enforces the learned prompts to be correctly classified with respect to the hand-engineered ones by means of a cross-entropy regularization loss. The authors also propose LASP+ by training LASP with virtual classes by including, during training, class names for which no visual samples are available.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Datasets: ImageNet, Caltech101, Oxford-Pets, Stanford Cars, Flowers102, Food101, FGVC Aircraft, SUN397, DTD, EuroSAT  and UCF-101.
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2040.png" /></p>
     
