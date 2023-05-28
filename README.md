@@ -692,6 +692,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2041.png" /></p>
     
 27. ****Learning to Prompt for Open-Vocabulary Object Detection with Vision-Language Model**** [*[CVPR]*](https://arxiv.org/abs/2203.14940) [*[code]*](https://github.com/dyabel/detpro)
+    - Detection prompt (DetPro) can learn continuous prompt representations for open-vocabulary object detection based on the pre-trained vision-language model equipped with a background interpretation scheme for negative proposal inclusion, which optimizes the embedding of negative proposals to be away from all other class embedding and a context grading scheme with tailored positive proposals, which tailors the prompt representation learning with different positive proposal sets corresponding to different context levels.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Datasets: LVIS V1, Pascal VOC, COCO, Objects365
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2042.png" /></p>
     
