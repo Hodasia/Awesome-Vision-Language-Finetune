@@ -701,6 +701,19 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2042.png" /></p>
     
 28. **A Good Prompt Is Worth Millions of Parameters: Low-resource Prompt-based Learning for Vision-Language Models** [*[ACL]*](https://arxiv.org/abs/2110.08484) [*[code]*](https://github.com/woojeongjin/FewVLM)
+    - FEWVLM is pre-train on a sequence-to-sequence transformer model with prefix language modeling (PrefixLM) and masked language modeling (MaskedLM) for prompt-based low-resource learning of VL tasks.
+    
+    - Visual Question Answering Tasks:
+    
+        - VQAv2, OKVQA, GQA
+        
+    - Image Captioning:
+    
+        - NoCaps, Flickr30k
+        
+    - Categoical Learning
+    
+        - miniImageNet
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2043.png" /></p>
     
