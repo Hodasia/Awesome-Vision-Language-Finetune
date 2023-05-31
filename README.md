@@ -718,6 +718,13 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2043.png" /></p>
     
 29. ****Prompting through Prototype: A Prototype-based Prompt Learning on Pretrained Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2210.10841)
+    - A method of prompting through prototype(PTP) on pretrained vision-language models (PVLMs) is a prototype-based prompting method which only updates parameters related to prompting while freezing the weights of PVLM.
+    
+    - Image Classification Datasets: Caltech101,  StanfordCars, OxfordPets ,UCF101, Food101, SUN397, FGVCAircraft
+    
+    - PVLM models: bi-encoder CLIP, single-encoder ViLT
+    
+    - Image Encoder Backbone: ViT-B/32
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2044.png" /></p>
     
