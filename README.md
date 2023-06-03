@@ -729,6 +729,11 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2044.png" /></p>
     
 30. ****Unsupervised Prompt Learning for Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2204.03649) [*[code]*](https://github.com/tonyhuang2022/UPL)
+    - Unsupervised prompt learning (UPL) framework can avoid time-consuming prompt engineering and better adapt vision-language models (e.g. CLIP) for the downstream image recognition task.
+    
+    - Pre-Model: CLIP
+    
+    - Datasets:ImageNet , Caltech101, DTD, EuroSAT, FGVCAircraft, Food101, Flowers102, OxfordPets, SUN397, StandfordCars, UCF101
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2045.png" /></p>
     
