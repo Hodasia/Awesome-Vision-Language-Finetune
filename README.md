@@ -738,6 +738,19 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2045.png" /></p>
     
 31. ****Prompt Distribution Learning**** [*[CVPR]*](https://arxiv.org/abs/2205.03340)
+    - Prompt Distribution Learning (ProDA) learns the soft prompts from a few downstream samples, discovering the task-related content with less bias than manual design and estimates a distribution over diverse and informative prompts to capture the variance of visual representations rather than learning one soft prompt.
+    
+    - Pre-Trained Model: CLIP
+    
+    - Datasets:
+    
+        - General Object Recognition: ImageNet-1k, CIFAR-10, CIFAR-100, STL10, Caltech-101
+        
+        - Fine-Grained Object Recognition: Oxford-IIIT Pets, Food-101, Stanford Cars, Oxford Flowers 102, and FGVC Aircraft
+        
+        - Remote Sensing Recognition: EuroSAT
+        
+        - Texture Recognition: DTD
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2046.png" /></p>
     
