@@ -765,6 +765,13 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2047.png" /></p>
     
 33. ****DenseCLIP: Language-Guided Dense Prediction with Context-Aware Prompting**** [*[CVPR]*](https://arxiv.org/abs/2112.01518) [*[code]*](https://github.com/raoyongming/DenseCLIP)
+    - DenseCLIP is a new language-guided dense prediction framework designed for various Dense prediction tasks by implicitly and explicitly leveraging the pre-trained knowledge from CLIP models.
+    
+    - Tasks:
+    
+        - Semantic Segmentation: ADE20K
+        
+        - Object Detection and Instance Segmentation: ImageNet1K
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2048.png" /></p>
     
