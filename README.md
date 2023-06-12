@@ -319,6 +319,18 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
         
         - Datasets(11 benchmarks:ImageNet, Caltech101, FGVCAircraft, Flowers102, Food101, OxfordPets, StandfordCars, EuroSAT, DTD, SUN397, UCF101)
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled97.jpg" /></p>
+24.****Improving Visual Prompt Tuning for Self-supervised Vision Transformers**** [*[ICML]*](https://arxiv.org/pdf/2306.05067.pdf) [*[code]*](https://github.com/ryongithub/GatedPromptTuning)
+  - The authors propose a simple yet effective method that learns a gate for each ViT block to adjust its intervention into the prompt tokens, with which prompt tokens are selectively influenced by blocks that require steering for task adaptation.
+    
+  - Tasks:
+    
+       - Image Classification:FGVC(CUB, Oxford Flowers, Stanford Cars, Stanford Dogs, NABirds), VTAB-1K(Natural, Specialized, Structured) benchmark
+        
+       - Semantic Segmentation: ADE20K benchmark and SETR-PUP segmentation model.
+        
+   - Self-supervised Vision Transformers: MAE, MoCo pretrained on ImageNet-1K
+    <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled98.jpg" /></p>
+    
 
 ## 2022
 
