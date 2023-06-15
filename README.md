@@ -788,43 +788,50 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2048.png" /></p>
     
 34. ****CLIP also Understands Text: Prompting CLIP for Phrase Understanding**** [*[arXiv]*](https://arxiv.org/abs/2210.05836)
+    - Because the text encoder trained with only image-text contrastive learning can achieve competitive or even better results on downstream text understanding tasks compared to popular language models pretrained with MLM, the authors design an automatic prompting method with a language model as the knowledge base to boost performance on phrase understanding for both language models and CLIP.
+    
+    - Datasets:
+    
+        - entity clustering: CoNLL2003, BC5CDR, WNUT 2017
+        
+        - entity set expansion: WIKI
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2049.png" /></p>
     
-35. ****Bridge-Prompt: Towards Ordinal Action Understanding in Instructional Videos**** [*[CVPR]*](https://arxiv.org/abs/2203.14104) [*[code]*](https://github.com/ttlmh/Bridge-Prompt)
+36. ****Bridge-Prompt: Towards Ordinal Action Understanding in Instructional Videos**** [*[CVPR]*](https://arxiv.org/abs/2203.14104) [*[code]*](https://github.com/ttlmh/Bridge-Prompt)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2050.png" /></p>
     
-36. ****Prompting Visual-Language Models for Efficient Video Understanding**** [*[ECCV]*](https://arxiv.org/abs/2112.04478)
+37. ****Prompting Visual-Language Models for Efficient Video Understanding**** [*[ECCV]*](https://arxiv.org/abs/2112.04478)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2051.png" /></p>
     
-37. ****PointCLIP V2: Adapting CLIP for Powerful 3D Open-world Learning**** [*[CVPR]*](https://arxiv.org/abs/2211.11682) [*[code]*](https://github.com/yangyangyang127/PointCLIP_V2)
+38. ****PointCLIP V2: Adapting CLIP for Powerful 3D Open-world Learning**** [*[CVPR]*](https://arxiv.org/abs/2211.11682) [*[code]*](https://github.com/yangyangyang127/PointCLIP_V2)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2052.png" /></p>
     
-38. ****SVL-Adapter: Self-Supervised Adapter for Vision-Language Pretrained Models**** [*[BMV]*](https://arxiv.org/abs/2210.03794) [*[code]*](https://github.com/omipan/svl_adapter)
+39. ****SVL-Adapter: Self-Supervised Adapter for Vision-Language Pretrained Models**** [*[BMV]*](https://arxiv.org/abs/2210.03794) [*[code]*](https://github.com/omipan/svl_adapter)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2053.png" /></p>
     
-39. ****Localized Latent Updates for Fine-Tuning Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2212.06556)
-40. ****EfficientVLM: Fast and Accurate Vision-Language Models via Knowledge Distillation and Modal-adaptive Pruning**** [*[arXiv]*](https://arxiv.org/abs/2210.07795)  [*[code]*](https://github.com/swaggy-TN/EfficientVLM)
+40. ****Localized Latent Updates for Fine-Tuning Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2212.06556)
+41. ****EfficientVLM: Fast and Accurate Vision-Language Models via Knowledge Distillation and Modal-adaptive Pruning**** [*[arXiv]*](https://arxiv.org/abs/2210.07795)  [*[code]*](https://github.com/swaggy-TN/EfficientVLM)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2054.png" /></p>
     
-41. ****Can Language Understand Depth?**** [*[ACM MM]*](https://arxiv.org/abs/2207.01077) [*[code]*](https://github.com/Adonis-galaxy/DepthCLIP)
+42. ****Can Language Understand Depth?**** [*[ACM MM]*](https://arxiv.org/abs/2207.01077) [*[code]*](https://github.com/Adonis-galaxy/DepthCLIP)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2055.png" /></p>
     
-42. ****Prompting for Multi-Modal Tracking**** [*[ACM MM]*](https://arxiv.org/abs/2207.14571)
+43. ****Prompting for Multi-Modal Tracking**** [*[ACM MM]*](https://arxiv.org/abs/2207.14571)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2056.png" /></p>
     
-43. ****Expanding Language-Image Pretrained Models for General Video Recognition**** [*[ECCV]*](https://arxiv.org/abs/2208.02816) [*[code]*](https://aka.ms/X-CLIP)
+44. ****Expanding Language-Image Pretrained Models for General Video Recognition**** [*[ECCV]*](https://arxiv.org/abs/2208.02816) [*[code]*](https://aka.ms/X-CLIP)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2057.png" /></p>
     
-44. ****Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification**** [*[ECCV]*](https://arxiv.org/abs/2207.09519) [*[code]*](https://github.com/gaopengcuhk/Tip-Adapter) ECCV*
+45. ****Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification**** [*[ECCV]*](https://arxiv.org/abs/2207.09519) [*[code]*](https://github.com/gaopengcuhk/Tip-Adapter) ECCV*
     - Tip-Adapter with Fine-tuning(Tip-Adapter-F) is the fine-tuned version of Tip-Adatper. It unfreezed the cached keys as a good initialization for learnable parameters and further fine-tuned them via SGD.
     
     - Pre-Trianed Models:
@@ -839,51 +846,51 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2058.png" /></p>
     
-45. ****Adapting CLIP For Phrase Localization Without Further Training**** [*[arXiv]*](https://arxiv.org/abs/2204.03647) [*[code]*](https://github.com/pals-ttic/adapting-CLIP)
+46. ****Adapting CLIP For Phrase Localization Without Further Training**** [*[arXiv]*](https://arxiv.org/abs/2204.03647) [*[code]*](https://github.com/pals-ttic/adapting-CLIP)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2059.png" /></p>
     
-46. ****CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2109.11797) [*[code]*](https://github.com/thunlp/CPT)
+47. ****CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2109.11797) [*[code]*](https://github.com/thunlp/CPT)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2060.png" /></p>
     
-47. ****Domain Prompt Learning for Efficiently Adapting CLIP to Unseen Domains**** [*[arXiv]*](https://arxiv.org/abs/2111.12853) [*[code]*](https://github.com/shogi880/DPLCLIP)
+48. ****Domain Prompt Learning for Efficiently Adapting CLIP to Unseen Domains**** [*[arXiv]*](https://arxiv.org/abs/2111.12853) [*[code]*](https://github.com/shogi880/DPLCLIP)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2061.png" /></p>
     
-48. ****Clip-Tuning: Towards Derivative-free Prompt Learning with a Mixture of Rewards**** [*[EMNLP]*](https://arxiv.org/abs/2210.12050)
+49. ****Clip-Tuning: Towards Derivative-free Prompt Learning with a Mixture of Rewards**** [*[EMNLP]*](https://arxiv.org/abs/2210.12050)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2062.png" /></p>
     
-49. **Prompt-aligned Gradient for Prompt Tuning** [*[arXiv]*](https://arxiv.org/abs/2205.14865) [*[code]*](https://github.com/BeierZhu/Prompt-align)
+50. **Prompt-aligned Gradient for Prompt Tuning** [*[arXiv]*](https://arxiv.org/abs/2205.14865) [*[code]*](https://github.com/BeierZhu/Prompt-align)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2063.png" /></p>
     
-50. ****DualCoOp: Fast Adaptation to Multi-Label Recognition with Limited Annotations**** [*[arXiv]*](https://arxiv.org/abs/2206.09541)
+51. ****DualCoOp: Fast Adaptation to Multi-Label Recognition with Limited Annotations**** [*[arXiv]*](https://arxiv.org/abs/2206.09541)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2064.png" /></p>
     
-51. ****Delving into the Openness of CLIP**** [*[arXiv]*](https://arxiv.org/abs/2206.01986)
+52. ****Delving into the Openness of CLIP**** [*[arXiv]*](https://arxiv.org/abs/2206.01986)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2065.png" /></p>
     
-52. ****OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression**** [*[NeurlPS]*](https://arxiv.org/abs/2206.02338)  [*[code]*](https://github.com/xk-huang/OrdinalCLIP)
+53. ****OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression**** [*[NeurlPS]*](https://arxiv.org/abs/2206.02338)  [*[code]*](https://github.com/xk-huang/OrdinalCLIP)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2066.png" /></p>
     
-53. ****Prompt Tuning for Generative Multimodal Pretrained Models**** [*[arXiv]*](https://arxiv.org/abs/2208.02532) [*[code]*](https://github.com/OFA-Sys/OFA)
+54. ****Prompt Tuning for Generative Multimodal Pretrained Models**** [*[arXiv]*](https://arxiv.org/abs/2208.02532) [*[code]*](https://github.com/OFA-Sys/OFA)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2067.png" /></p>
     
-54. ****Contrastive Demonstration Tuning for Pre-trained Language Models**** [*[EMNLP]*](https://arxiv.org/abs/2204.04392) [*[code]*](https://github.com/zjunlp/PromptKG/tree/main/research/Demo-Tuning)
+55. ****Contrastive Demonstration Tuning for Pre-trained Language Models**** [*[EMNLP]*](https://arxiv.org/abs/2204.04392) [*[code]*](https://github.com/zjunlp/PromptKG/tree/main/research/Demo-Tuning)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2068.png" /></p>
     
-55. ****PPT: Pre-trained Prompt Tuning for Few-shot Learning**** [*[ACL]*](https://arxiv.org/abs/2109.04332) [*[code]*](http://github.com/thu-coai/PPT)
+56. ****PPT: Pre-trained Prompt Tuning for Few-shot Learning**** [*[ACL]*](https://arxiv.org/abs/2109.04332) [*[code]*](http://github.com/thu-coai/PPT)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2069.png" /></p>
     
-56. ****Pro-tuning: Unified Prompt Tuning for Vision Tasks**** [*[arXiv]*](https://arxiv.org/abs/2207.14381)
+57. ****Pro-tuning: Unified Prompt Tuning for Vision Tasks**** [*[arXiv]*](https://arxiv.org/abs/2207.14381)
 
 <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2070.png" /></p>
 
