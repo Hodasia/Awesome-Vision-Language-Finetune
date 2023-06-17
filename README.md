@@ -330,7 +330,16 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
         
    - Self-supervised Vision Transformers: MAE, MoCo pretrained on ImageNet-1K
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled98.jpg" /></p>
+25.****Task Residual for Tuning Vision-Language Models****[*[CVPR]*](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Task_Residual_for_Tuning_Vision-Language_Models_CVPR_2023_paper.pdf)[*[code]*](https://github.com/geekyutao/TaskRes)
+- Task Residual Tuning (TaskRes)bperforms directly on the textbased classifier and explicitly decouples the prior knowledge of the pre-trained models and new knowledge regarding a target task by keeping the original classifier weights from the VLMs frozen and obtains a new classifier for the target task by tuning a set of prior-independent parameters as a residual to the original one, which enables reliable prior knowledge preservation and flexible task-specific knowledge exploration.
     
+- Tasks:
+    
+  - Few-shot learning: ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, DTD, EuroSAT, UCF101
+        
+  - Domain generalization: ImageNetV2, ImageNet-Sketch, ImageNet-A, ImageNet-R
+    
+    <p align="center"><img width="50%" src="https://github.com/geekyutao/TaskRes/raw/main/images/taskres.png" /></p>
 
 ## 2022
 
