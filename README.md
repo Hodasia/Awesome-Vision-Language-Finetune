@@ -319,27 +319,34 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
         
         - Datasets(11 benchmarks:ImageNet, Caltech101, FGVCAircraft, Flowers102, Food101, OxfordPets, StandfordCars, EuroSAT, DTD, SUN397, UCF101)
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled97.jpg" /></p>
-24.****Improving Visual Prompt Tuning for Self-supervised Vision Transformers**** [*[ICML]*](https://arxiv.org/pdf/2306.05067.pdf) [*[code]*](https://github.com/ryongithub/GatedPromptTuning)
-  - The authors propose a simple yet effective method that learns a gate for each ViT block to adjust its intervention into the prompt tokens, with which prompt tokens are selectively influenced by blocks that require steering for task adaptation.
+24. ****Improving Visual Prompt Tuning for Self-supervised Vision Transformers**** [*[ICML]*](https://arxiv.org/pdf/2306.05067.pdf) [*[code]*](https://github.com/ryongithub/GatedPromptTuning)
+      - The authors propose a simple yet effective method that learns a gate for each ViT block to adjust its intervention into the prompt tokens, with which prompt tokens are selectively influenced by blocks that require steering for task adaptation.
     
-  - Tasks:
+      - Tasks:
     
-       - Image Classification:FGVC(CUB, Oxford Flowers, Stanford Cars, Stanford Dogs, NABirds), VTAB-1K(Natural, Specialized, Structured) benchmark
+           - Image Classification:FGVC(CUB, Oxford Flowers, Stanford Cars, Stanford Dogs, NABirds), VTAB-1K(Natural, Specialized, Structured) benchmark
         
-       - Semantic Segmentation: ADE20K benchmark and SETR-PUP segmentation model.
+           - Semantic Segmentation: ADE20K benchmark and SETR-PUP segmentation model.
         
-   - Self-supervised Vision Transformers: MAE, MoCo pretrained on ImageNet-1K
+       - Self-supervised Vision Transformers: MAE, MoCo pretrained on ImageNet-1K
     <p align="center"><img width="30%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled98.jpg" /></p>
-25.****Task Residual for Tuning Vision-Language Models****[*[CVPR]*](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Task_Residual_for_Tuning_Vision-Language_Models_CVPR_2023_paper.pdf)[*[code]*](https://github.com/geekyutao/TaskRes)
-- Task Residual Tuning (TaskRes)bperforms directly on the textbased classifier and explicitly decouples the prior knowledge of the pre-trained models and new knowledge regarding a target task by keeping the original classifier weights from the VLMs frozen and obtains a new classifier for the target task by tuning a set of prior-independent parameters as a residual to the original one, which enables reliable prior knowledge preservation and flexible task-specific knowledge exploration.
+25. ****Task Residual for Tuning Vision-Language Models****[*[CVPR]*](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Task_Residual_for_Tuning_Vision-Language_Models_CVPR_2023_paper.pdf)[*[code]*](https://github.com/geekyutao/TaskRes)
+    - Task Residual Tuning (TaskRes)bperforms directly on the textbased classifier and explicitly decouples the prior knowledge of the pre-trained models and new knowledge regarding a target task by keeping the original classifier weights from the VLMs frozen and obtains a new classifier for the target task by tuning a set of prior-independent parameters as a residual to the original one, which enables reliable prior knowledge preservation and flexible task-specific knowledge exploration.
     
-- Tasks:
+    - Tasks:
     
-  - Few-shot learning: ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, DTD, EuroSAT, UCF101
+      - Few-shot learning: ImageNet, Caltech101, OxfordPets, StanfordCars, Flowers102, Food101, FGVCAircraft, SUN397, DTD, EuroSAT, UCF101
         
-  - Domain generalization: ImageNetV2, ImageNet-Sketch, ImageNet-A, ImageNet-R
+      - Domain generalization: ImageNetV2, ImageNet-Sketch, ImageNet-A, ImageNet-R
     
     <p align="center"><img width="50%" src="https://github.com/geekyutao/TaskRes/raw/main/images/taskres.png" /></p>
+26. ****ConES: Concept Embedding Search for Parameter Efficient Tuning Large Vision Language Models**** [*[arXiv]*](https://arxiv.org/pdf/2305.18993.pdf)
+    - Concept Embedding Search (ConES) approach optimizes prompt embeddings—without the need of the text encoder—to capture the ‘concept’ of the image modality through a variety of task objectives, which not only significantly speed up the learning process but is also orthogonal to current existing tuning methods since the searched concept embeddings can be further utilized in the next stage of fine-tuning the pre-trained large models for boosting performance.
+    
+    - Pre-trained Model: GLIP, UNIEXT, Stable Diffusion
+    
+    - Datasets: ISIC 2016, DFUC 202, BCCD, CPM-17, TBX11k, LUNA16, ADNI, TN3k, Cityscapes, DFUC2022, Kavsir-SEG
+    <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled99.jpg" /></p>
 
 ## 2022
 
