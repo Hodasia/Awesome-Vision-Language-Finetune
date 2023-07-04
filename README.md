@@ -347,6 +347,19 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     
     - Datasets: ISIC 2016, DFUC 202, BCCD, CPM-17, TBX11k, LUNA16, ADNI, TN3k, Cityscapes, DFUC2022, Kavsir-SEG
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled99.jpg" /></p>
+27. ****Contextual Prompt Learning for Vision-Language Understanding**** [*[CVPR]*](https://arxiv.org/pdf/2307.00910.pdf)
+    - Contextual Prompt Learning (CoPL) framework is capable of aligning the prompts to the localized features of the image, include using local image features as part of the prompt learning process, and more crucially, learning to weight these prompts based on local features that are appropriate for the task at hand.
+    
+    - Pre-trained Model: CLIP
+    
+    - Datasets:
+    
+        - generic classification: ImageNet Caltech-101
+        
+        - curated fine-grained: OxfordPets, StanfordCars, Flowers102, Food101 FGVCAircraft
+        
+        - scene, action, texture and satellite image recognition: SUN397, UCF101, DTD, EuroSat
+      <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled100.jpg" /></p>
 
 ## 2022
 
