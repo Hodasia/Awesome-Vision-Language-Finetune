@@ -941,50 +941,57 @@ With the rise of powerful pre-trained vision-language models like CLIP, the comm
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2058.png" /></p>
     
 55. ****Adapting CLIP For Phrase Localization Without Further Training**** [*[arXiv]*](https://arxiv.org/abs/2204.03647) [*[code]*](https://github.com/pals-ttic/adapting-CLIP)
+    - The authors not only adapt CLIP to generate high-resolution spatial feature maps without human annotations or additional training, but also extract feature maps from both ViT and ResNet CLIP model while maintaining the semantic properties.
+    
+    - Datasets:
+    
+        - Flickr: Flickr-S0, Fliker-S1, Flickr-All, Flickr-Other
+        
+        - Visual Genome(VG): VG-S0, VG-S1
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2059.png" /></p>
     
-56. ****CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2109.11797) [*[code]*](https://github.com/thunlp/CPT)
+57. ****CPT: Colorful Prompt Tuning for Pre-trained Vision-Language Models**** [*[arXiv]*](https://arxiv.org/abs/2109.11797) [*[code]*](https://github.com/thunlp/CPT)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2060.png" /></p>
     
-57. ****Domain Prompt Learning for Efficiently Adapting CLIP to Unseen Domains**** [*[arXiv]*](https://arxiv.org/abs/2111.12853) [*[code]*](https://github.com/shogi880/DPLCLIP)
+58. ****Domain Prompt Learning for Efficiently Adapting CLIP to Unseen Domains**** [*[arXiv]*](https://arxiv.org/abs/2111.12853) [*[code]*](https://github.com/shogi880/DPLCLIP)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2061.png" /></p>
     
-58. ****Clip-Tuning: Towards Derivative-free Prompt Learning with a Mixture of Rewards**** [*[EMNLP]*](https://arxiv.org/abs/2210.12050)
+59. ****Clip-Tuning: Towards Derivative-free Prompt Learning with a Mixture of Rewards**** [*[EMNLP]*](https://arxiv.org/abs/2210.12050)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2062.png" /></p>
     
-59. **Prompt-aligned Gradient for Prompt Tuning** [*[arXiv]*](https://arxiv.org/abs/2205.14865) [*[code]*](https://github.com/BeierZhu/Prompt-align)
+60. **Prompt-aligned Gradient for Prompt Tuning** [*[arXiv]*](https://arxiv.org/abs/2205.14865) [*[code]*](https://github.com/BeierZhu/Prompt-align)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2063.png" /></p>
     
-60. ****DualCoOp: Fast Adaptation to Multi-Label Recognition with Limited Annotations**** [*[arXiv]*](https://arxiv.org/abs/2206.09541)
+61. ****DualCoOp: Fast Adaptation to Multi-Label Recognition with Limited Annotations**** [*[arXiv]*](https://arxiv.org/abs/2206.09541)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2064.png" /></p>
     
-61. ****Delving into the Openness of CLIP**** [*[arXiv]*](https://arxiv.org/abs/2206.01986)
+62. ****Delving into the Openness of CLIP**** [*[arXiv]*](https://arxiv.org/abs/2206.01986)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2065.png" /></p>
     
-62. ****OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression**** [*[NeurlPS]*](https://arxiv.org/abs/2206.02338)  [*[code]*](https://github.com/xk-huang/OrdinalCLIP)
+63. ****OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression**** [*[NeurlPS]*](https://arxiv.org/abs/2206.02338)  [*[code]*](https://github.com/xk-huang/OrdinalCLIP)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2066.png" /></p>
     
-63. ****Prompt Tuning for Generative Multimodal Pretrained Models**** [*[arXiv]*](https://arxiv.org/abs/2208.02532) [*[code]*](https://github.com/OFA-Sys/OFA)
+64. ****Prompt Tuning for Generative Multimodal Pretrained Models**** [*[arXiv]*](https://arxiv.org/abs/2208.02532) [*[code]*](https://github.com/OFA-Sys/OFA)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2067.png" /></p>
     
-64. ****Contrastive Demonstration Tuning for Pre-trained Language Models**** [*[EMNLP]*](https://arxiv.org/abs/2204.04392) [*[code]*](https://github.com/zjunlp/PromptKG/tree/main/research/Demo-Tuning)
+65. ****Contrastive Demonstration Tuning for Pre-trained Language Models**** [*[EMNLP]*](https://arxiv.org/abs/2204.04392) [*[code]*](https://github.com/zjunlp/PromptKG/tree/main/research/Demo-Tuning)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2068.png" /></p>
     
-65. ****PPT: Pre-trained Prompt Tuning for Few-shot Learning**** [*[ACL]*](https://arxiv.org/abs/2109.04332) [*[code]*](http://github.com/thu-coai/PPT)
+66. ****PPT: Pre-trained Prompt Tuning for Few-shot Learning**** [*[ACL]*](https://arxiv.org/abs/2109.04332) [*[code]*](http://github.com/thu-coai/PPT)
     
     <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2069.png" /></p>
     
-66. ****Pro-tuning: Unified Prompt Tuning for Vision Tasks**** [*[arXiv]*](https://arxiv.org/abs/2207.14381)
+67. ****Pro-tuning: Unified Prompt Tuning for Vision Tasks**** [*[arXiv]*](https://arxiv.org/abs/2207.14381)
 
 <p align="center"><img width="50%" src="https://github.com/Hodasia/Awesome-Vision-Language-Finetune/blob/main/img/Untitled%2070.png" /></p>
 
